@@ -1,8 +1,9 @@
-"""exact_counts.py: Module that handles the exact counts of a text file."""
+"""exact_counts.py: Class that handles the exact counts of a text file / data stream."""
 
 __author__ = "Rafael Sá, 104552, rafael.sa@ua.pt, MEI"
 
 import ast
+import heapq
 from file_processing import write_dict_to_file
 
 
@@ -24,7 +25,7 @@ class ExactCount(object):
     def save_counters(self, sequence, filename):
         """Get the counters and saves in a file."""
         self.count_items_frequency(sequence)
-        write_dict_to_file(self.counters, filename)
+        write_dict_to_file(filename, self.counters)
 
     def count_items_frequency(self, sequence):
         """Count the frequency of the items in the sequence."""
@@ -34,6 +35,10 @@ class ExactCount(object):
                 self.counters[char] += 1
             else:
                 self.counters[char] = 1
+
+    def get_top_counters(self, k):
+        """Return the k items with highest frequency ordered."""
+        return heapq.nlargest(k, self.counters.items(), key=lambda i: i[1])
 
     def __getitem__(self, item):
         """Returns the counter of a given item."""

@@ -1,0 +1,390 @@
+Results for the Misra & Gries Algorithm for finding frequent items
+
+
+Text File: books/The Adventures of Sherlock Holmes.txt
+Exact counts: [('e', 53082), ('t', 38980), ('a', 35125), ('o', 33475), ('i', 30138), ('h', 29048), ('n', 28641), ('s', 27159), ('r', 24502), ('d', 18520), ('l', 17145), ('u', 13074), ('m', 11787), ('w', 11266), ('c', 10500), ('y', 9431), ('f', 8975), ('g', 7888), ('p', 6798), ('b', 6363), ('v', 4446), ('k', 3542), ('x', 549), ('j', 452), ('q', 427), ('z', 149), ('é', 12), ('æ', 6), ('œ', 2), ('à', 1), ('â', 1), ('è', 1)]
+Number of items: 431485
+Number of distinct items: 32
+k: 2:
+	Results: [('s', 1)]
+	Percentage of items in the same position: 0.00%
+	Sum of the differences between the exact counter and the estimate: 27158
+	Mean of the percentage of the difference between the exact counter and the estimate: 100.00%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 0.34 seconds
+k: 3:
+	Results: [('s', 1)]
+	Percentage of items in the same position: 0.00%
+	Sum of the differences between the exact counter and the estimate: 27158
+	Mean of the percentage of the difference between the exact counter and the estimate: 100.00%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 0.39 seconds
+k: 4:
+	Results: [('c', 2), ('s', 2), ('e', 1)]
+	Percentage of items in the same position: 0.00%
+	Sum of the differences between the exact counter and the estimate: 90736
+	Mean of the percentage of the difference between the exact counter and the estimate: 99.99%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 0.42 seconds
+k: 5:
+	Results: [('c', 2), ('s', 2), ('e', 1)]
+	Percentage of items in the same position: 0.00%
+	Sum of the differences between the exact counter and the estimate: 90736
+	Mean of the percentage of the difference between the exact counter and the estimate: 99.99%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 0.37 seconds
+k: 6:
+	Results: [('e', 3), ('c', 2), ('s', 2)]
+	Percentage of items in the same position: 33.33%
+	Sum of the differences between the exact counter and the estimate: 90734
+	Mean of the percentage of the difference between the exact counter and the estimate: 99.99%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 0.35 seconds
+k: 7:
+	Results: [('e', 8), ('c', 2), ('s', 2)]
+	Percentage of items in the same position: 33.33%
+	Sum of the differences between the exact counter and the estimate: 90729
+	Mean of the percentage of the difference between the exact counter and the estimate: 99.99%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 0.34 seconds
+k: 8:
+	Results: [('e', 14), ('s', 3), ('c', 2), ('l', 1), ('u', 1)]
+	Percentage of items in the same position: 20.00%
+	Sum of the differences between the exact counter and the estimate: 120939
+	Mean of the percentage of the difference between the exact counter and the estimate: 99.99%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 0.31 seconds
+k: 9:
+	Results: [('e', 5782), ('s', 2), ('c', 1)]
+	Percentage of items in the same position: 33.33%
+	Sum of the differences between the exact counter and the estimate: 84956
+	Mean of the percentage of the difference between the exact counter and the estimate: 96.36%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 0.27 seconds
+k: 10:
+	Results: [('e', 11039), ('t', 6), ('s', 3), ('h', 2), ('c', 2), ('a', 1), ('l', 1), ('u', 1)]
+	Percentage of items in the same position: 25.00%
+	Sum of the differences between the exact counter and the estimate: 213058
+	Mean of the percentage of the difference between the exact counter and the estimate: 97.39%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 0.26 seconds
+k: 11:
+	Results: [('e', 15374), ('t', 1311), ('h', 3), ('s', 3), ('a', 2), ('c', 2), ('l', 1), ('u', 1)]
+	Percentage of items in the same position: 25.00%
+	Sum of the differences between the exact counter and the estimate: 207416
+	Mean of the percentage of the difference between the exact counter and the estimate: 95.95%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 0.25 seconds
+k: 12:
+	Results: [('e', 19283), ('t', 5181), ('a', 1340), ('o', 75), ('s', 8), ('h', 5), ('c', 2), ('n', 1), ('i', 1), ('l', 1)]
+	Percentage of items in the same position: 50.00%
+	Sum of the differences between the exact counter and the estimate: 277396
+	Mean of the percentage of the difference between the exact counter and the estimate: 94.63%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 0.24 seconds
+k: 13:
+	Results: [('e', 23017), ('t', 8915), ('a', 5060), ('o', 3414), ('i', 198), ('s', 16), ('h', 11), ('n', 5), ('l', 2), ('c', 2)]
+	Percentage of items in the same position: 50.00%
+	Sum of the differences between the exact counter and the estimate: 262653
+	Mean of the percentage of the difference between the exact counter and the estimate: 90.84%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 0.22 seconds
+k: 14:
+	Results: [('e', 27118), ('t', 13016), ('a', 9161), ('o', 7513), ('i', 4176), ('h', 3085), ('n', 2678), ('s', 1203), ('r', 31), ('l', 4), ('c', 2), ('w', 1), ('u', 1)]
+	Percentage of items in the same position: 69.23%
+	Sum of the differences between the exact counter and the estimate: 284146
+	Mean of the percentage of the difference between the exact counter and the estimate: 86.81%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 0.35 seconds
+k: 15:
+	Results: [('e', 31196), ('t', 17094), ('a', 13239), ('o', 11589), ('i', 8254), ('h', 7162), ('n', 6755), ('s', 5279), ('r', 2618), ('l', 4), ('c', 2), ('w', 1), ('b', 1), ('u', 1)]
+	Percentage of items in the same position: 64.29%
+	Sum of the differences between the exact counter and the estimate: 255303
+	Mean of the percentage of the difference between the exact counter and the estimate: 79.95%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 0.22 seconds
+k: 16:
+	Results: [('e', 34335), ('t', 20233), ('a', 16378), ('o', 14728), ('i', 11392), ('h', 10301), ('n', 9894), ('s', 8415), ('r', 5756), ('d', 84), ('l', 14), ('c', 2), ('u', 1)]
+	Percentage of items in the same position: 84.62%
+	Sum of the differences between the exact counter and the estimate: 227856
+	Mean of the percentage of the difference between the exact counter and the estimate: 71.53%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 0.20 seconds
+k: 17:
+	Results: [('e', 37144), ('t', 23042), ('a', 19187), ('o', 17537), ('i', 14201), ('h', 13110), ('n', 12703), ('s', 11222), ('r', 8564), ('d', 2582), ('l', 1234), ('u', 7), ('f', 2), ('m', 2), ('c', 2)]
+	Percentage of items in the same position: 86.67%
+	Sum of the differences between the exact counter and the estimate: 219612
+	Mean of the percentage of the difference between the exact counter and the estimate: 68.65%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 0.18 seconds
+k: 18:
+	Results: [('e', 39437), ('t', 25335), ('a', 21480), ('o', 19830), ('i', 16494), ('h', 15403), ('n', 14996), ('s', 13514), ('r', 10857), ('d', 4875), ('l', 3500), ('u', 133), ('m', 10), ('f', 6), ('c', 3), ('w', 1), ('b', 1)]
+	Percentage of items in the same position: 82.35%
+	Sum of the differences between the exact counter and the estimate: 211905
+	Mean of the percentage of the difference between the exact counter and the estimate: 66.95%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 0.19 seconds
+k: 19:
+	Results: [('e', 41312), ('t', 27210), ('a', 23355), ('o', 21705), ('i', 18368), ('h', 17278), ('n', 16871), ('s', 15389), ('r', 12732), ('d', 6750), ('l', 5375), ('u', 1315), ('m', 127), ('w', 47), ('f', 10), ('c', 6), ('p', 3), ('b', 2)]
+	Percentage of items in the same position: 77.78%
+	Sum of the differences between the exact counter and the estimate: 196723
+	Mean of the percentage of the difference between the exact counter and the estimate: 64.08%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 0.16 seconds
+k: 20:
+	Results: [('e', 43298), ('t', 29196), ('a', 25341), ('o', 23691), ('i', 20354), ('h', 19264), ('n', 18857), ('s', 17375), ('r', 14718), ('d', 8736), ('l', 7361), ('u', 3292), ('m', 2003), ('w', 1488), ('c', 716), ('y', 98), ('f', 11), ('p', 5), ('b', 1)]
+	Percentage of items in the same position: 89.47%
+	Sum of the differences between the exact counter and the estimate: 178204
+	Mean of the percentage of the difference between the exact counter and the estimate: 59.12%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 0.17 seconds
+k: 21:
+	Results: [('e', 45507), ('t', 31405), ('a', 27550), ('o', 25900), ('i', 22563), ('h', 21473), ('n', 21066), ('s', 19584), ('r', 16927), ('d', 10945), ('l', 9570), ('u', 5499), ('m', 4212), ('w', 3694), ('c', 2925), ('y', 1859), ('f', 1400), ('g', 327), ('p', 4)]
+	Percentage of items in the same position: 100.00%
+	Sum of the differences between the exact counter and the estimate: 143124
+	Mean of the percentage of the difference between the exact counter and the estimate: 48.50%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 0.16 seconds
+k: 22:
+	Results: [('e', 48293), ('t', 34191), ('a', 30336), ('o', 28686), ('i', 25349), ('h', 24259), ('n', 23852), ('s', 22370), ('r', 19713), ('d', 13731), ('l', 12356), ('u', 8285), ('m', 6998), ('w', 6478), ('c', 5711), ('y', 4642), ('f', 4186), ('g', 3101), ('p', 2009), ('b', 1574), ('v', 7)]
+	Percentage of items in the same position: 100.00%
+	Sum of the differences between the exact counter and the estimate: 100216
+	Mean of the percentage of the difference between the exact counter and the estimate: 36.43%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 0.13 seconds
+k: 23:
+	Results: [('e', 51482), ('t', 37380), ('a', 33525), ('o', 31875), ('i', 28538), ('h', 27448), ('n', 27041), ('s', 25559), ('r', 22902), ('d', 16920), ('l', 15545), ('u', 11474), ('m', 10187), ('w', 9666), ('c', 8900), ('y', 7831), ('f', 7375), ('g', 6288), ('p', 5198), ('b', 4763), ('v', 2846), ('k', 1942)]
+	Percentage of items in the same position: 100.00%
+	Sum of the differences between the exact counter and the estimate: 35200
+	Mean of the percentage of the difference between the exact counter and the estimate: 13.79%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 0.14 seconds
+k: 24:
+	Results: [('e', 52282), ('t', 38180), ('a', 34325), ('o', 32675), ('i', 29338), ('h', 28248), ('n', 27841), ('s', 26359), ('r', 23702), ('d', 17720), ('l', 16345), ('u', 12274), ('m', 10987), ('w', 10466), ('c', 9700), ('y', 8631), ('f', 8175), ('g', 7088), ('p', 5998), ('b', 5563), ('v', 3646), ('k', 2742)]
+	Percentage of items in the same position: 100.00%
+	Sum of the differences between the exact counter and the estimate: 17600
+	Mean of the percentage of the difference between the exact counter and the estimate: 6.90%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 0.12 seconds
+k: 25:
+	Results: [('e', 52570), ('t', 38468), ('a', 34613), ('o', 32963), ('i', 29626), ('h', 28536), ('n', 28129), ('s', 26647), ('r', 23990), ('d', 18008), ('l', 16633), ('u', 12562), ('m', 11275), ('w', 10754), ('c', 9988), ('y', 8919), ('f', 8463), ('g', 7376), ('p', 6286), ('b', 5851), ('v', 3934), ('k', 3030), ('x', 63), ('z', 1)]
+	Percentage of items in the same position: 95.83%
+	Sum of the differences between the exact counter and the estimate: 11898
+	Mean of the percentage of the difference between the exact counter and the estimate: 11.87%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 0.11 seconds
+k: 26:
+	Results: [('e', 52910), ('t', 38808), ('a', 34953), ('o', 33303), ('i', 29966), ('h', 28876), ('n', 28469), ('s', 26987), ('r', 24330), ('d', 18348), ('l', 16973), ('u', 12902), ('m', 11615), ('w', 11094), ('c', 10328), ('y', 9259), ('f', 8803), ('g', 7716), ('p', 6626), ('b', 6191), ('v', 4274), ('k', 3370), ('x', 377), ('j', 280), ('q', 255)]
+	Percentage of items in the same position: 100.00%
+	Sum of the differences between the exact counter and the estimate: 4300
+	Mean of the percentage of the difference between the exact counter and the estimate: 5.69%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 0.12 seconds
+k: 27:
+	Results: [('e', 53059), ('t', 38957), ('a', 35102), ('o', 33452), ('i', 30115), ('h', 29025), ('n', 28618), ('s', 27136), ('r', 24479), ('d', 18497), ('l', 17122), ('u', 13051), ('m', 11764), ('w', 11243), ('c', 10477), ('y', 9408), ('f', 8952), ('g', 7865), ('p', 6775), ('b', 6340), ('v', 4423), ('k', 3519), ('x', 526), ('j', 429), ('q', 404), ('z', 126)]
+	Percentage of items in the same position: 100.00%
+	Sum of the differences between the exact counter and the estimate: 598
+	Mean of the percentage of the difference between the exact counter and the estimate: 1.33%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 0.15 seconds
+k: 28:
+	Results: [('e', 53072), ('t', 38970), ('a', 35115), ('o', 33465), ('i', 30128), ('h', 29038), ('n', 28631), ('s', 27149), ('r', 24492), ('d', 18510), ('l', 17135), ('u', 13064), ('m', 11777), ('w', 11256), ('c', 10490), ('y', 9421), ('f', 8965), ('g', 7878), ('p', 6788), ('b', 6353), ('v', 4436), ('k', 3532), ('x', 539), ('j', 442), ('q', 417), ('z', 139), ('é', 3)]
+	Percentage of items in the same position: 100.00%
+	Sum of the differences between the exact counter and the estimate: 269
+	Mean of the percentage of the difference between the exact counter and the estimate: 3.33%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 0.11 seconds
+k: 29:
+	Results: [('e', 53077), ('t', 38975), ('a', 35120), ('o', 33470), ('i', 30133), ('h', 29043), ('n', 28636), ('s', 27154), ('r', 24497), ('d', 18515), ('l', 17140), ('u', 13069), ('m', 11782), ('w', 11261), ('c', 10495), ('y', 9426), ('f', 8970), ('g', 7883), ('p', 6793), ('b', 6358), ('v', 4441), ('k', 3537), ('x', 544), ('j', 447), ('q', 422), ('z', 144), ('é', 7), ('æ', 1)]
+	Percentage of items in the same position: 100.00%
+	Sum of the differences between the exact counter and the estimate: 140
+	Mean of the percentage of the difference between the exact counter and the estimate: 4.73%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 0.11 seconds
+k: 30:
+	Results: [('e', 53080), ('t', 38978), ('a', 35123), ('o', 33473), ('i', 30136), ('h', 29046), ('n', 28639), ('s', 27157), ('r', 24500), ('d', 18518), ('l', 17143), ('u', 13072), ('m', 11785), ('w', 11264), ('c', 10498), ('y', 9429), ('f', 8973), ('g', 7886), ('p', 6796), ('b', 6361), ('v', 4444), ('k', 3540), ('x', 547), ('j', 450), ('q', 425), ('z', 147), ('é', 10), ('æ', 4), ('è', 1)]
+	Percentage of items in the same position: 96.55%
+	Sum of the differences between the exact counter and the estimate: 56
+	Mean of the percentage of the difference between the exact counter and the estimate: 1.83%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 0.12 seconds
+k: 31:
+	Results: [('e', 53081), ('t', 38979), ('a', 35124), ('o', 33474), ('i', 30137), ('h', 29047), ('n', 28640), ('s', 27158), ('r', 24501), ('d', 18519), ('l', 17144), ('u', 13073), ('m', 11786), ('w', 11265), ('c', 10499), ('y', 9430), ('f', 8974), ('g', 7887), ('p', 6797), ('b', 6362), ('v', 4445), ('k', 3541), ('x', 548), ('j', 451), ('q', 426), ('z', 148), ('é', 11), ('æ', 5), ('œ', 1), ('è', 1)]
+	Percentage of items in the same position: 96.67%
+	Sum of the differences between the exact counter and the estimate: 29
+	Mean of the percentage of the difference between the exact counter and the estimate: 2.55%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 0.11 seconds
+
+Text File: books/King James Bible.txt
+Exact counts: [('e', 410402), ('t', 316223), ('h', 282153), ('a', 274725), ('o', 241846), ('n', 224029), ('i', 192836), ('s', 189262), ('r', 169167), ('d', 157572), ('l', 129450), ('f', 83156), ('u', 82970), ('m', 79572), ('w', 65218), ('y', 58254), ('g', 54879), ('c', 54473), ('b', 48588), ('p', 42810), ('v', 30252), ('k', 22150), ('j', 8793), ('z', 2970), ('x', 1450), ('q', 953)]
+Number of items: 3224153
+Number of distinct items: 26
+k: 2:
+	Results: [('n', 1)]
+	Percentage of items in the same position: 0.00%
+	Sum of the differences between the exact counter and the estimate: 224028
+	Mean of the percentage of the difference between the exact counter and the estimate: 100.00%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 2.41 seconds
+k: 3:
+	Results: [('e', 1), ('n', 1)]
+	Percentage of items in the same position: 50.00%
+	Sum of the differences between the exact counter and the estimate: 634429
+	Mean of the percentage of the difference between the exact counter and the estimate: 100.00%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 2.50 seconds
+k: 4:
+	Results: [('n', 1)]
+	Percentage of items in the same position: 0.00%
+	Sum of the differences between the exact counter and the estimate: 224028
+	Mean of the percentage of the difference between the exact counter and the estimate: 100.00%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 2.54 seconds
+k: 5:
+	Results: [('a', 1), ('l', 1), ('n', 1)]
+	Percentage of items in the same position: 0.00%
+	Sum of the differences between the exact counter and the estimate: 628201
+	Mean of the percentage of the difference between the exact counter and the estimate: 100.00%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 2.45 seconds
+k: 6:
+	Results: [('l', 1), ('a', 1), ('m', 1), ('e', 1), ('n', 1)]
+	Percentage of items in the same position: 0.00%
+	Sum of the differences between the exact counter and the estimate: 1118173
+	Mean of the percentage of the difference between the exact counter and the estimate: 100.00%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 2.34 seconds
+k: 7:
+	Results: [('e', 2), ('a', 2), ('l', 2), ('u', 1), ('m', 1), ('n', 1)]
+	Percentage of items in the same position: 33.33%
+	Sum of the differences between the exact counter and the estimate: 1201139
+	Mean of the percentage of the difference between the exact counter and the estimate: 100.00%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 2.31 seconds
+k: 8:
+	Results: [('e', 8545), ('a', 2), ('l', 2), ('o', 1), ('u', 1), ('m', 1), ('n', 1)]
+	Percentage of items in the same position: 14.29%
+	Sum of the differences between the exact counter and the estimate: 1434441
+	Mean of the percentage of the difference between the exact counter and the estimate: 99.70%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 2.31 seconds
+k: 9:
+	Results: [('e', 58685), ('t', 12), ('a', 1), ('l', 1), ('n', 1)]
+	Percentage of items in the same position: 40.00%
+	Sum of the differences between the exact counter and the estimate: 1296129
+	Mean of the percentage of the difference between the exact counter and the estimate: 97.14%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 2.33 seconds
+k: 10:
+	Results: [('e', 98362), ('t', 5375), ('h', 10), ('o', 2), ('l', 1), ('a', 1), ('m', 1), ('n', 1)]
+	Percentage of items in the same position: 37.50%
+	Sum of the differences between the exact counter and the estimate: 1854647
+	Mean of the percentage of the difference between the exact counter and the estimate: 96.79%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 2.14 seconds
+k: 11:
+	Results: [('e', 133583), ('t', 39404), ('h', 5757), ('a', 393), ('o', 4), ('l', 1), ('m', 1), ('n', 1)]
+	Percentage of items in the same position: 62.50%
+	Sum of the differences between the exact counter and the estimate: 1779256
+	Mean of the percentage of the difference between the exact counter and the estimate: 94.10%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 1.87 seconds
+k: 12:
+	Results: [('e', 167944), ('t', 73765), ('h', 39695), ('a', 32267), ('o', 881), ('n', 104), ('l', 1)]
+	Percentage of items in the same position: 85.71%
+	Sum of the differences between the exact counter and the estimate: 1564171
+	Mean of the percentage of the difference between the exact counter and the estimate: 87.08%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 1.78 seconds
+k: 13:
+	Results: [('e', 199726), ('t', 105547), ('h', 71477), ('a', 64049), ('o', 31198), ('n', 13353), ('i', 12), ('s', 2), ('l', 1)]
+	Percentage of items in the same position: 88.89%
+	Sum of the differences between the exact counter and the estimate: 1775561
+	Mean of the percentage of the difference between the exact counter and the estimate: 83.38%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 1.74 seconds
+k: 14:
+	Results: [('e', 228506), ('t', 134327), ('h', 100257), ('a', 92829), ('o', 59955), ('n', 42133), ('i', 12026), ('s', 7522), ('d', 36), ('r', 17), ('l', 1)]
+	Percentage of items in the same position: 81.82%
+	Sum of the differences between the exact counter and the estimate: 1910056
+	Mean of the percentage of the difference between the exact counter and the estimate: 79.88%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 1.76 seconds
+k: 15:
+	Results: [('e', 257217), ('t', 163038), ('h', 128968), ('a', 121540), ('o', 88661), ('n', 70844), ('i', 39651), ('s', 36083), ('r', 15982), ('d', 4387), ('l', 6), ('u', 1)]
+	Percentage of items in the same position: 91.67%
+	Sum of the differences between the exact counter and the estimate: 1744257
+	Mean of the percentage of the difference between the exact counter and the estimate: 72.97%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 1.71 seconds
+k: 16:
+	Results: [('e', 283178), ('t', 188999), ('h', 154929), ('a', 147501), ('o', 114622), ('n', 96805), ('i', 65612), ('s', 62038), ('r', 41943), ('d', 30348), ('l', 2591), ('y', 1), ('u', 1), ('m', 1)]
+	Percentage of items in the same position: 92.86%
+	Sum of the differences between the exact counter and the estimate: 1619892
+	Mean of the percentage of the difference between the exact counter and the estimate: 68.51%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 1.65 seconds
+k: 17:
+	Results: [('e', 304322), ('t', 210143), ('h', 176073), ('a', 168645), ('o', 135766), ('n', 117949), ('i', 86756), ('s', 83182), ('r', 63087), ('d', 51492), ('l', 23373), ('u', 2), ('f', 1), ('c', 1), ('m', 1)]
+	Percentage of items in the same position: 73.33%
+	Sum of the differences between the exact counter and the estimate: 1467043
+	Mean of the percentage of the difference between the exact counter and the estimate: 63.32%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 1.62 seconds
+k: 18:
+	Results: [('e', 319481), ('t', 225302), ('h', 191232), ('a', 183804), ('o', 150925), ('n', 133108), ('i', 101915), ('s', 98341), ('r', 78246), ('d', 66651), ('l', 38532), ('f', 29), ('m', 3), ('c', 2), ('u', 2), ('w', 1), ('y', 1)]
+	Percentage of items in the same position: 70.59%
+	Sum of the differences between the exact counter and the estimate: 1423733
+	Mean of the percentage of the difference between the exact counter and the estimate: 63.01%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 1.51 seconds
+k: 19:
+	Results: [('e', 332295), ('t', 238116), ('h', 204046), ('a', 196618), ('o', 163739), ('n', 145922), ('i', 114729), ('s', 111155), ('r', 91060), ('d', 79465), ('l', 51344), ('f', 5066), ('u', 4995), ('m', 1487), ('w', 79), ('c', 3), ('y', 1)]
+	Percentage of items in the same position: 88.24%
+	Sum of the differences between the exact counter and the estimate: 1271188
+	Mean of the percentage of the difference between the exact counter and the estimate: 58.28%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 1.32 seconds
+k: 20:
+	Results: [('e', 345720), ('t', 251541), ('h', 217471), ('a', 210043), ('o', 177164), ('n', 159347), ('i', 128154), ('s', 124580), ('r', 104485), ('d', 92890), ('l', 64769), ('f', 18474), ('u', 18293), ('m', 14890), ('w', 2608), ('g', 75), ('y', 6), ('c', 3)]
+	Percentage of items in the same position: 88.89%
+	Sum of the differences between the exact counter and the estimate: 1135674
+	Mean of the percentage of the difference between the exact counter and the estimate: 53.79%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 1.39 seconds
+k: 21:
+	Results: [('e', 358088), ('t', 263909), ('h', 229839), ('a', 222411), ('o', 189532), ('n', 171715), ('i', 140522), ('s', 136948), ('r', 116853), ('d', 105258), ('l', 77136), ('f', 30842), ('u', 30656), ('m', 27258), ('w', 12904), ('y', 6782), ('g', 2639), ('c', 2266), ('b', 1)]
+	Percentage of items in the same position: 100.00%
+	Sum of the differences between the exact counter and the estimate: 989216
+	Mean of the percentage of the difference between the exact counter and the estimate: 48.55%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 1.31 seconds
+k: 22:
+	Results: [('e', 377481), ('t', 283302), ('h', 249232), ('a', 241804), ('o', 208925), ('n', 191108), ('i', 159915), ('s', 156341), ('r', 136246), ('d', 124651), ('l', 96529), ('f', 50235), ('u', 50049), ('m', 46651), ('w', 32297), ('y', 25333), ('g', 21958), ('c', 21552), ('b', 15667), ('p', 9903), ('v', 712)]
+	Percentage of items in the same position: 100.00%
+	Sum of the differences between the exact counter and the estimate: 687946
+	Mean of the percentage of the difference between the exact counter and the estimate: 36.24%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 1.20 seconds
+k: 23:
+	Results: [('e', 396236), ('t', 302057), ('h', 267987), ('a', 260559), ('o', 227680), ('n', 209863), ('i', 178670), ('s', 175096), ('r', 155001), ('d', 143406), ('l', 115284), ('f', 68990), ('u', 68804), ('m', 65406), ('w', 51052), ('y', 44088), ('g', 40713), ('c', 40307), ('b', 34422), ('p', 28644), ('v', 16086), ('k', 7984)]
+	Percentage of items in the same position: 100.00%
+	Sum of the differences between the exact counter and the estimate: 311652
+	Mean of the percentage of the difference between the exact counter and the estimate: 18.01%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 1.04 seconds
+k: 24:
+	Results: [('e', 405041), ('t', 310862), ('h', 276792), ('a', 269364), ('o', 236485), ('n', 218668), ('i', 187475), ('s', 183901), ('r', 163806), ('d', 152211), ('l', 124089), ('f', 77795), ('u', 77609), ('m', 74211), ('w', 59857), ('y', 52893), ('g', 49518), ('c', 49112), ('b', 43227), ('p', 37449), ('v', 24891), ('k', 16789), ('j', 3444)]
+	Percentage of items in the same position: 100.00%
+	Sum of the differences between the exact counter and the estimate: 123291
+	Mean of the percentage of the difference between the exact counter and the estimate: 9.16%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 1.10 seconds
+k: 25:
+	Results: [('e', 408039), ('t', 313860), ('h', 279790), ('a', 272362), ('o', 239483), ('n', 221666), ('i', 190473), ('s', 186899), ('r', 166804), ('d', 155209), ('l', 127087), ('f', 80793), ('u', 80607), ('m', 77209), ('w', 62855), ('y', 55891), ('g', 52516), ('c', 52110), ('b', 46225), ('p', 40447), ('v', 27889), ('k', 19787), ('j', 6430), ('z', 647)]
+	Percentage of items in the same position: 100.00%
+	Sum of the differences between the exact counter and the estimate: 56672
+	Mean of the percentage of the difference between the exact counter and the estimate: 7.13%
+	Percentage of items with frequency greater than m/k: 100.00%
+	Execution time: 1.11 seconds
