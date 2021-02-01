@@ -74,8 +74,8 @@ for filename in filenames:
         file_results.write(f"\tMean percentage of the difference between the exact counter and the estimate: {percentage_dif:.2f}%\n")
         file_results.write(f"\tPercentage of the presence of mandatory counters (according to the frequency) in the estimates: {percentage_must_have:.2f}%\n")
         file_results.write(f"\tExecution time: {(end - start):.2f} seconds\n")
-        excel_writer.writerow([filename[0], k, percentage_pos, sum_dif, percentage_dif, percentage_must_have, (end - start)
-                               , k - 1, len(result)])
+        excel_writer.writerow([filename[0], k, percentage_pos, sum_dif, percentage_dif, percentage_must_have, (end - start),
+                               k - 1, len(result)])
 file_results.close()
 file_results_to_excel.close()
 print("\nResults written to the file: \"" + filename_results + "\"")
