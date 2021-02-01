@@ -30,7 +30,8 @@ file_results.write("Results for the Misra & Gries Algorithm for finding frequent
 excel_writer.writerow(['File', 'k', 'Percentage of items in the same position',
                        'Sum of the differences between the exact counter and the estimate',
                        'Mean percentage of the difference between the exact counter and the estimate',
-                       'Percentage of items with frequency greater than m/k', 'Execution time'])
+                       'Percentage of the presence of mandatory counters in the estimates', 'Execution time',
+                       'Max Items', 'Number of Items'])
 for filename in filenames:
     exact_counts.load_counters(filename[1])
     data_stream = get_data_stream(filename[0])
@@ -67,12 +68,14 @@ for filename in filenames:
             percentage_must_have = (sum_must_have / len(must_items)) * 100
         file_results.write("k: " + str(k) + ":\n")
         file_results.write("\tResults: " + str(result) + "\n")
+        file_results.write("\tNumber of Items: " + str(len(result)) + "\n")
         file_results.write(f"\tPercentage of items in the same position: {percentage_pos:.2f}%\n")
         file_results.write("\tSum of the differences between the exact counter and the estimate: " + str(sum_dif) + "\n")
         file_results.write(f"\tMean percentage of the difference between the exact counter and the estimate: {percentage_dif:.2f}%\n")
-        file_results.write(f"\tPercentage of items with frequency greater than m/k: {percentage_must_have:.2f}%\n")
+        file_results.write(f"\tPercentage of the presence of mandatory counters (according to the frequency) in the estimates: {percentage_must_have:.2f}%\n")
         file_results.write(f"\tExecution time: {(end - start):.2f} seconds\n")
-        excel_writer.writerow([filename[0], k, percentage_pos, sum_dif, percentage_dif, percentage_must_have, (end - start)])
+        excel_writer.writerow([filename[0], k, percentage_pos, sum_dif, percentage_dif, percentage_must_have, (end - start)
+                               , k - 1, len(result)])
 file_results.close()
 file_results_to_excel.close()
 print("\nResults written to the file: \"" + filename_results + "\"")
