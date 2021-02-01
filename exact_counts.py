@@ -40,6 +40,15 @@ class ExactCount(object):
         """Return the k items with highest frequency ordered."""
         return heapq.nlargest(k, self.counters.items(), key=lambda i: i[1])
 
+    def get_items_above_threshold(self, k_value):
+        """Returns the items that have frequency above m/k"""
+        threshold = sum(self.counters.values()) / k_value
+        res = {}
+        for item, value in self.counters.items():
+            if value > threshold:
+                res[item] = value
+        return res
+
     def __getitem__(self, item):
         """Returns the counter of a given item."""
         if item in self.counters:
